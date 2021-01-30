@@ -16,9 +16,6 @@ preload_common	/common_preload		ext4		display="preload_common";
 /logo			emmc	/dev/block/platform/bootdevice/by-name/logo		flags=display="LOGO";backup=1;flashimg=1
 /expdb			emmc	/dev/block/platform/bootdevice/by-name/expdb
 /seccfg			emmc	/dev/block/platform/bootdevice/by-name/seccfg
-/oemkeystore		emmc	/dev/block/platform/bootdevice/by-name/oemkeystore
-/secro			emmc	/dev/block/platform/bootdevice/by-name/secro		flags=display="secro";backup=1
-/keystore		emmc	/dev/block/platform/bootdevice/by-name/keystore
 /tee1			emmc	/dev/block/platform/bootdevice/by-name/tee1		flags=display="tee1";backup=1;flashimg=1
 /tee2			emmc	/dev/block/platform/bootdevice/by-name/tee2		flags=display="tee2";backup=1;flashimg=1
 /frp			emmc	/dev/block/platform/bootdevice/by-name/frp		flags=display="frp";backup=1
