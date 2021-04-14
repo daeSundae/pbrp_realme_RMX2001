@@ -136,7 +136,6 @@ TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_LOGICAL := oppo_product oppo_engineering preload_common
 TW_SUPPORT_INPUT_1_2_HAPTICS := true
 TW_OZIP_DECRYPT_KEY := 0000
-TW_RECOVERY_RELINK_ADDITIONAL_BINARY_FILES := exfat-fuse
 TW_NO_EXFAT_FUSE := true
 
 # Hack: prevent anti rollback
