@@ -137,6 +137,12 @@ TW_INCLUDE_LOGICAL := oppo_product oppo_engineering preload_common
 TW_SUPPORT_INPUT_1_2_HAPTICS := true
 TW_OZIP_DECRYPT_KEY := 0000
 
+# exFAT FS Support
+TW_INCLUDE_FUSE_EXFAT := true
+
+# NTFS Support
+TW_INCLUDE_FUSE_NTFS := true
+
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 
