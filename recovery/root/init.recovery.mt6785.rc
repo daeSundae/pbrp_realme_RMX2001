@@ -1,6 +1,7 @@
 on fs
     install_keyring
     mkdir /mnt/vendor/persist 0777 system system
+    mount ext4 /dev/block/platform/bootdevice/by-name/vendor /vendor rw
     setprop crypto.ready 1
     write /sys/devices/platform/odm/odm:oppo_charger/power_supply/usb/otg_switch 1
 
